@@ -1,0 +1,61 @@
+/* General Styles */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Garamond ;
+    margin: 500;
+    padding: 500;
+    line-height: 1.6;
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #F1DBBF, #e5e5f7),
+    repeating-radial-gradient(circle at center center, #F1DBBF, #F1DBBF, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+  }
+  
+  header {
+    background-color: #698269;
+    color: #fff;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: left;
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Project Cards */
+  .project {
+    border: 5px solid #F3EEEA;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #AA5656;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+  }
